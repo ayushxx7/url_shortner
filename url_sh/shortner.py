@@ -9,4 +9,4 @@ class shortner:
 
     def issue_token(self):
         letters = string.ascii_letters
-        return ''.join(random.choice(letters) for i in ranges(self.token_size))
+        return ''.join(random.choice(letters) for i in range(self.token_size))
