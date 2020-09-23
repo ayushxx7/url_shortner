@@ -20,6 +20,9 @@ def Make(request):
         if form.is_valid():
             NewUrl = form.save(commit=False)
             token = shortner().issue_token()
+            token_list = [key['short_url'] for key in short_urls.objects.values()]
+            while token in token_list:
+                token = shortner().issue_token()
             NewUrl.short_url = token
             NewUrl.save()
         else:

@@ -1,0 +1,50 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/96237bce/
+ALLOWED_HOSTS	url_shortner/settings.py	/^ALLOWED_HOSTS = []$/;"	v
+AUTH_PASSWORD_VALIDATORS	url_shortner/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	v
+BASE_DIR	url_shortner/settings.py	/^BASE_DIR = Path(__file__).resolve().parent.parent$/;"	v
+DATABASES	url_shortner/settings.py	/^DATABASES = {$/;"	v
+DEBUG	url_shortner/settings.py	/^DEBUG = True$/;"	v
+Home	url_sh/views.py	/^def Home(request, token):$/;"	f
+INSTALLED_APPS	url_shortner/settings.py	/^INSTALLED_APPS = [$/;"	v
+LANGUAGE_CODE	url_shortner/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	v
+MIDDLEWARE	url_shortner/settings.py	/^MIDDLEWARE = [$/;"	v
+Make	url_sh/views.py	/^def Make(request):$/;"	f
+Meta	url_sh/forms.py	/^    class Meta:$/;"	c	class:UrlForm
+Migration	url_sh/migrations/0001_initial.py	/^class Migration(migrations.Migration):$/;"	c
+ROOT_URLCONF	url_shortner/settings.py	/^ROOT_URLCONF = 'url_shortner.urls'$/;"	v
+SECRET_KEY	url_shortner/settings.py	/^SECRET_KEY = '9r-ers-ab5=+0$mv-w&sz0tf37mw(x7w=1yxb1-!e#s4%x+y^*'$/;"	v
+STATIC_URL	url_shortner/settings.py	/^STATIC_URL = '\/static\/'$/;"	v
+TEMPLATES	url_shortner/settings.py	/^TEMPLATES = [$/;"	v
+TIME_ZONE	url_shortner/settings.py	/^TIME_ZONE = 'UTC'$/;"	v
+USE_I18N	url_shortner/settings.py	/^USE_I18N = True$/;"	v
+USE_L10N	url_shortner/settings.py	/^USE_L10N = True$/;"	v
+USE_TZ	url_shortner/settings.py	/^USE_TZ = True$/;"	v
+UrlForm	url_sh/forms.py	/^class UrlForm(forms.ModelForm):$/;"	c
+UrlShConfig	url_sh/apps.py	/^class UrlShConfig(AppConfig):$/;"	c
+WSGI_APPLICATION	url_shortner/settings.py	/^WSGI_APPLICATION = 'url_shortner.wsgi.application'$/;"	v
+__init__	url_sh/shortner.py	/^    def __init__(self, token_size=None):$/;"	m	class:shortner
+application	url_shortner/asgi.py	/^application = get_asgi_application()$/;"	v
+application	url_shortner/wsgi.py	/^application = get_wsgi_application()$/;"	v
+dependencies	url_sh/migrations/0001_initial.py	/^    dependencies = [$/;"	v	class:Migration
+fields	url_sh/forms.py	/^        fields = ['long_url']$/;"	v	class:UrlForm.Meta
+initial	url_sh/migrations/0001_initial.py	/^    initial = True$/;"	v	class:Migration
+issue_token	url_sh/shortner.py	/^    def issue_token(self):$/;"	m	class:shortner
+long_url	url_sh/models.py	/^    long_url = models.URLField("URL")$/;"	v	class:short_urls
+main	manage.py	/^def main():$/;"	f
+model	url_sh/forms.py	/^        model = short_urls$/;"	v	class:UrlForm.Meta
+name	url_sh/apps.py	/^    name = 'url_sh'$/;"	v	class:UrlShConfig
+operations	url_sh/migrations/0001_initial.py	/^    operations = [$/;"	v	class:Migration
+short_url	url_sh/models.py	/^    short_url = models.CharField(max_length=20)$/;"	v	class:short_urls
+short_urls	url_sh/models.py	/^class short_urls(models.Model):$/;"	c
+shortner	url_sh/shortner.py	/^class shortner:$/;"	c
+token_size	url_sh/shortner.py	/^    token_size = 5$/;"	v	class:shortner
+urlpatterns	url_shortner/urls.py	/^urlpatterns = [$/;"	v
+{{token}}	url_sh/templates/home.html	/^<h1> {{token}} <\/h1>$/;"	h
